@@ -24,7 +24,6 @@ public class OrangeTest {
             return  "A "+ characterictic+ " "+orange.getColor()+" orange";
         };
 
-
         prettyPrintApple(inventory,fancyFormatter);
     }
 
