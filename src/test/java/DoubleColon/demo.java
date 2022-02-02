@@ -39,5 +39,8 @@ public class demo {
         Consumer<Integer> display2= System.out::println;
         display.accept(34);
 
+
+       // BiFunction<MyClas,Integer,Double> v2= new MyClas()::method;
+
     }
 }

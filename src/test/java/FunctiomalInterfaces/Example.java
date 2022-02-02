@@ -46,5 +46,11 @@ public class Example {
 
         Supplier<Double> randomValue= ()->Math.random();
         System.out.println("randomValue.get() = " + randomValue.get());
+
+
+
+
+
+
     }
 }
