@@ -1,3 +1,6 @@
+import Task.Dish;
+import Task.DishData;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -27,5 +30,20 @@ public class Reducing {
         System.out.println("min = " + min);
         System.out.println("max = " + max);
         System.out.println("sum = " + sum);
+
+        //Task
+        int dishcount=DishData.getAll().stream()
+                .map(dish -> 1)
+                .reduce(0,(a,b)->(a+b));
+
+        System.out.println("dishcount = " + dishcount);
+
+
+        long dishCount2=DishData.getAll().stream()
+                .count();
+
+        System.out.println("dishCount2 = " + dishCount2);
+
+
     }
 }
