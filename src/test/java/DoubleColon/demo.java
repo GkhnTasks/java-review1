@@ -11,7 +11,7 @@ public class demo {
         Calculate s1= (x,y)-> Calculater.findsum(x,y);
         s1.calculate(10,20);
 
-        Calculate s2=Calculater::findsum; //same to line 8
+        Calculate s2=Calculater::findsum; //same to line 11
         s2.calculate(32,45);
 
         //Reference to instance method
